@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Exercise</title>
+</head>
+<body>
+
+	<h1>Register</h1>
+	<form>
+		<!-- Inputs for First name and Last name -->
+		<label>First name: 
+			<input type="text" name="firstname" placeholder="First name" required> 
+		</label>
+		<label for="lastname">Last name:</label>
+		<input id="lastname" type="text" name="lastname" placeholder="Last name" required>
+
+		<!-- You could also use a <div></div> instead of <p>to reduce spacing between lines in the form. -->
+		<p>
+			<label for="maleoption">Male: </label>
+			<input id="maleoption" type="radio" name="genderChoice" value="MALE">
+			<label>Female: 
+				<input type="radio" name="genderChoice" value="FEMALE">
+			</label>
+			<label for="otheroption">Other: </label>
+			<input id="otheroption" type="radio" name="genderChoice" value="OTHER">
+		</p>
+
+		<p>
+			<label>Email: 
+				<input type="email" name="email" placeholder="your email" required>
+			</label>
+			<label>Password:
+				<input type="password" name="password" pattern=".{5,10}" title="Password must be between 5 and 10 characters" required>
+			</label>
+		</p>
+
+		<p>
+			<label for="birthday">Birthday: 
+				<select name="Month">
+					<option>Month</option>
+					<option>January</option>
+					<option>February</option>
+					<option>March</option>
+				</select>
+				<select name="Day">
+					<option>Day</option>
+					<option>1</option>
+					<option>2</option>
+					<option>3</option>
+					<option>4</option>
+				</select>
+				<select name="Year">
+					<option>Year</option>
+					<option>1996</option>
+					<option>1997</option>
+					<option>1998</option>
+					<option>1999</option>
+					<option>2000</option>
+				</select>
+			</label>
+		</p>
+
+		<p>
+			<label>I agree to the terms and conditions 
+				<input type="checkbox" name="tc">
+			</label>
+
+		</p>
+
+		<p><button>Submit</button></p>
+	</form>
+
+</body>
+</html>

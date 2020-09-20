@@ -1,0 +1,73 @@
+<!-- Saturday June 20, 2020 -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bootstrap Grid System</title>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<style type="text/css">
+		.pink {
+			background: pink;
+			border: 1px solid purple;
+		}
+		.orange {
+			background: orange;
+			border: 1px dashed red;
+			height: 50px;
+		}
+	</style>
+</head>
+<body>
+
+	<!-- OBJECTIVES
+	1. Understand purpose of grid system
+	2. Understand the 4 different sizes
+	3. Write Nested Grids -->
+	<div class="container">
+		<div class="row">
+			<!-- This will divide the columns 50-50 -->
+			<div class="col-lg-6 pink">COL LG 6</div>
+			<div class="col-lg-6 pink">COL LG 6</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-2 pink">COL LG 2</div>
+			<div class="col-lg-8 pink">COL LG 8</div>
+			<div class="col-lg-2 pink">COL LG 2</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-3 col-md-3 col-sm-6 pink">
+				<div class="row">
+					<div class ="col-lg-6 orange">First Half</div>
+					<div class ="col-lg-6 orange">Other Half</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-6 pink">TOUR DATE!</div>
+			<div class="col-lg-3 col-md-3 col-sm-6 pink">TOUR DATE!</div>
+			<div class="col-lg-3 col-md-3 col-sm-6 pink">
+				<div class="row">
+					<div class="col-lg-2 orange"></div>
+					<div class="col-lg-2 orange"></div>
+					<div class="col-lg-2 orange"></div>
+					<div class="col-lg-2 orange"></div>
+					<div class="col-lg-2 orange"></div>
+					<div class="col-lg-2 orange"></div>
+				</div>
+			</div>
+		</div>
+		<!-- <div class="row">
+			<div class="col-lg-1 col-md-2 pink">COL LG 1</div>
+			<div class="col-lg-1 col-md-2 pink">COL LG 1</div>
+			<div class="col-lg-1 col-md-2 pink">COL LG 1</div>
+			<div class="col-lg-1 col-md-2 pink">COL LG 1</div>
+			<div class="col-lg-1 col-md-2 pink">COL LG 1</div>
+			<div class="col-lg-1 col-md-2 pink">COL LG 1</div>
+			<div class="col-lg-1 col-md-2 pink">COL LG 1</div>
+			<div class="col-lg-1 col-md-2 pink">COL LG 1</div>
+			<div class="col-lg-1 col-md-2 pink">COL LG 1</div>
+			<div class="col-lg-1 col-md-2 pink">COL LG 1</div>
+			<div class="col-lg-1 col-md-2 pink">COL LG 1</div>
+			<div class="col-lg-1 col-md-2 pink">COL LG 1</div>
+		</div> -->
+	</div>
+
+</body>
+</html>

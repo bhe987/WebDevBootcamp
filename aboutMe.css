@@ -1,0 +1,23 @@
+h1 {
+	color: rgba(00, 200, 100, 0.2);
+/*	border-color: purple;
+	border-width: 5px;
+	border-style: solid;*/
+	border: 2px dashed rgb(255, 100, 80);
+}
+
+/*li {
+	color: green;
+}*/
+
+h4 {
+	background: rgb(255, 100, 80);
+}
+
+body {
+	background: pink;
+
+	/*background: url(https://i.pinimg.com/736x/b6/07/95/b60795007716db1797bf6245dda97361--wood-texture-background-background-patterns.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;*/
+}

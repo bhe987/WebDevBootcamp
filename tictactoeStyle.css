@@ -1,0 +1,21 @@
+/* Thursday June 11, 2020
+	62 and 63: Creating a Tic Tac Toe Board	
+*/
+h1 {
+	text-align: center;
+}
+td {
+	width: 100px;
+	height: 100px;
+}
+.middlecol{
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+}
+#middlerow td {
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+}
+table {
+	margin: 0 auto 0 auto;
+}
