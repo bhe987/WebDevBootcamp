@@ -1,0 +1,8 @@
+/* Sunday November 29, 2020 253. Pokemon Sprites Demo */
+.pokemon {
+    display: inline-block;
+    text-align: center;
+}
+.pokemon img {
+    display: block;
+}
