@@ -1,0 +1,26 @@
+<!-- Monday January 4, 2020 -->
+<!-- starting with 357 RESTful Comments New -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Comment</title>
+</head>
+<body>
+    <h1>Make a New Comment</h1>
+    <form action="/comments" method="POST">
+        <section>
+            <label for="username">Enter your username: </label>
+            <input id="username" type="text" placeholder="username" name="username">
+        </section>
+        <section>
+            <label for="comment">Comment Text</label>
+            <br>
+            <textarea name="comment" id="comment" cols="30" rows="5"></textarea>
+        </section>
+        <button>Submit</button>
+    </form>
+    <a href="/comments">Go Back to Index</a>
+</body>
+</html>
