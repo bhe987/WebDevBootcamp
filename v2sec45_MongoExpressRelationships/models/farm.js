@@ -24,6 +24,7 @@ const farmSchema = new Schema({
     ]
 });
 
+// This Mongoose middleware is triggered after findByIdAndDelete() called
 farmSchema.post("fineOneAndDelete", async function(farm){
     if(farm.products.length){
         const res = await Product.deleteMany({_id : {$in: farm.products}})
