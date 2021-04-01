@@ -28,7 +28,16 @@ const seedDB = async function(){
             author: "604ebd0ca09ab20048667b33",
             location: `${cities[random1000].city}, ${cities[random1000].state}`,
             title: `${sample(descriptors)} ${sample(places)}`,
-            image: "https://source.unsplash.com/collection/483251",
+            images: [
+                {
+                    url: "https://res.cloudinary.com/dp9jdnq67/image/upload/v1616635526/YelpCamp/ln8wkwtd0deu5u8gsu1z.jpg",
+                    filename: "YelpCamp/ln8wkwtd0deu5u8gsu1z"
+                },
+                {
+                    url: "https://res.cloudinary.com/dp9jdnq67/image/upload/v1616635526/YelpCamp/b6jsioiyrt4phhkd4ffm.jpg",
+                    filename: "YelpCamp/b6jsioiyrt4phhkd4ffm"
+                }
+            ],
             description: "Lorem Ipsum Cupcake ipsum dolor sit amet caramels I love. Powder brownie macaroon soufflé candy. Pastry cupcake I love jujubes gummi bears dessert gingerbread ice cream.",
             price
         });
